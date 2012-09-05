@@ -25,8 +25,9 @@ var convertElementToObject = function(xmlElement, parseTypes) {
 
 	// if there are no children, parse the content
 	if (childElements.length === 0) {
-		var value = xmlElement.text();
-		return parseTypes ? parseValue(value) : value;
+		// text() will give us a string even if the element has no text content, so check how many child nodes it has first
+		var value = (xmlElement.childNodes().length === 0) ? null : xmlElement.text();
+		return (parseTypes && value != null && value !== "") ? parseValue(value) : value;
 	}
 	// otherwise create an object/array from the child elements
 	else {
