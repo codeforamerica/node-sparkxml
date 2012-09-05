@@ -1,0 +1,22 @@
+{
+  "name": "node-sparkxml",
+  "version": "0.1.0",
+  "description": "Parse XML according to the \"Spark\" convention (http://wiki.open311.org/JSON_and_XML_Conversion#The_Spark_Convention).",
+  "main": "sparkxml.js",
+  "scripts": {
+    "test": "echo \"There are no tests! Someone should totally write some. That would be awesome.\" && exit 1"
+  },
+  "dependencies": {
+    "libxmljs": "~0.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mr0grog/node-sparkxml"
+  },
+  "keywords": [
+    "XML",
+    "Spark"
+  ],
+  "author": "Rob Brackett",
+  "license": "BSD"
+}
