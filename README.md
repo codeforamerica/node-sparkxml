@@ -10,3 +10,8 @@ http://wiki.open311.org/JSON_and_XML_Conversion#The_Spark_Convention
 http://wiki.open311.org/Parker_vs_Spark
 
 _This library was mainly developed for tools around Open311, which uses the Spark convention, but it could be useful in plenty of other cases._
+
+## Copyright
+Copyright (c) 2012 Code for America. See [LICENSE][https://github.com/codeforamerica/node-sparkxml/blob/master/LICENSE] for details.
+
+[license]: https://github.com/codeforamerica/node-sparkxml/blob/master/LICENSE
