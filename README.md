@@ -12,6 +12,9 @@ http://wiki.open311.org/Parker_vs_Spark
 _This library was mainly developed for tools around Open311, which uses the Spark convention, but it could be useful in plenty of other cases._
 
 ## Copyright
-Copyright (c) 2012 Code for America. See [LICENSE][] for details.
+
+Copyright (c) 2012-2013 Code for America. See [LICENSE][] for details.
+
+Thanks to Oiva Eskola <https://github.com/oiva> for additional contributions.
 
 [license]: https://github.com/codeforamerica/node-sparkxml/blob/master/LICENSE
