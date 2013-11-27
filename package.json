@@ -7,7 +7,7 @@
     "test": "echo \"There are no tests! Someone should totally write some. That would be awesome.\" && exit 1"
   },
   "dependencies": {
-    "libxmljs": "~0.6.1"
+    "libxmljs": "~0.8.1"
   },
   "repository": {
     "type": "git",
