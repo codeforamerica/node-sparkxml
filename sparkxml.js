@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2012, Code for America
+ * Copyright (C) 2012-2015, Code for America
  * This is open source software, released under a standard 3-clause
  * BSD-style license; see the file LICENSE for details.
  */
@@ -42,7 +42,7 @@ exports.parse = function(xmlString, options) {
  * @param {Boolean} [parseTypes=true] Whether to automatically parse data types (e.g. <value>5.1</value> is parsed as a number instead of a string.)
  *
  * @private
- */ 
+ */
 var convertElementToObject = function(xmlElement, options, path) {
 	path = path || [];
 	options = options || {}
