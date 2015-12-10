@@ -18,5 +18,9 @@
     "Spark"
   ],
   "author": "Rob Brackett",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
 }
