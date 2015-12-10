@@ -49,7 +49,7 @@ describe("SparkXML", function() {
     ]);
   });
 
-  it.skip("should include namespaces in the object key", function() {
+  it("should include namespaces in the object key", function() {
     var xml = '<things xmlns:georss="http://www.georss.org/georss">' +
         '<id>1</id>' +
         '<georss:point>40.7111 -73.9565</georss:point>' +
