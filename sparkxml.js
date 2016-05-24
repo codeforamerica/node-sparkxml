@@ -64,7 +64,10 @@ var convertElementToObject = function(xmlElement, options, path) {
 		var resultObject = elementIsList ? [] : {};
 
 		childElements.forEach(function(childElement, index) {
-			var childName = childElement.name();
+			var prefix = childElement.namespace()
+				? (childElement.namespace().prefix() + ":")
+				: "";
+			var childName = prefix + childElement.name();
 
 			// if we're trying to overwrite the same name, switch to using an array
 			if (!elementIsList && typeHint !== "object" && resultObject.hasOwnProperty(childName)) {

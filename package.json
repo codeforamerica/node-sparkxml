@@ -4,7 +4,7 @@
   "description": "Parse XML according to the \"Spark\" convention (http://wiki.open311.org/JSON_and_XML_Conversion#The_Spark_Convention).",
   "main": "sparkxml.js",
   "scripts": {
-    "test": "echo \"There are no tests! Someone should totally write some. That would be awesome.\" && exit 1"
+    "test": "mocha"
   },
   "dependencies": {
     "libxmljs": "^0.15.0"
@@ -18,5 +18,9 @@
     "Spark"
   ],
   "author": "Rob Brackett",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
 }
