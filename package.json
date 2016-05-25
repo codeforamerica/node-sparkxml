@@ -1,6 +1,6 @@
 {
   "name": "sparkxml",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Parse XML according to the \"Spark\" convention (http://wiki.open311.org/JSON_and_XML_Conversion#The_Spark_Convention).",
   "main": "sparkxml.js",
   "scripts": {

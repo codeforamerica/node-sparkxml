@@ -13,7 +13,7 @@ _This library was mainly developed for tools around Open311, which uses the Spar
 
 ## Copyright
 
-Copyright (c) 2012-2015 Code for America. See [LICENSE][] for details.
+Copyright (c) 2012-2016 Code for America. See [LICENSE][] for details.
 
 Thanks to Oiva Eskola <https://github.com/oiva> and Milo van der Linden <https://github.com/milovanderlinden> for additional contributions.
 
