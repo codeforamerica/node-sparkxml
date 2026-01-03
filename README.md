@@ -1,5 +1,7 @@
 # Node-SparkXML
 
+⚠️ **This repository is no longer maintained!** It is open-source (under the BSD 3-clause license), and you should feel free to fork it.
+
 Node-SparkXML is a a simple Node.js-based XML parser.
 It parses according to the "Spark" convention, which is a slight modification of the "Parker" convention.
 
